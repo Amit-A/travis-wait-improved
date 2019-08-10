@@ -26,7 +26,7 @@ from termcolor import colored
 
 from ._version import __version__
 
-HEADER = colored("Travis-wait ❱", "magenta", attrs=["bold"])
+HEADER = colored("Travis-wait :", "magenta", attrs=["bold"])
 OUTPUT_INTERVAL = 60
 COUNTDOWN_AT = 10
 
